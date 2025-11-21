@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ person.name }} - Portfolio{% endblock %}
+
+{% block content %}
+  <section>
+    <h1>{{ person.name }}</h1>
+    <p class="title">{{ person.title }}</p>
+    <p>{{ person.bio }}</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      {% for s in person.skills %}
+        <li>{{ s }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      {% for p in person.projects %}
+        <article class="project">
+          <h3>{{ p.title }}</h3>
+          <p>{{ p.desc }}</p>
+          <a href="{{ p.link }}">View</a>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}
