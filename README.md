@@ -95,7 +95,7 @@ To display them:
 ![Homepage](screenshots/homepage.png)
 ![Contact Success](screenshots/contact_success.png)
 ![Terminal Output](screenshots/terminal_output.png)
-![Contact form](screenshots/contact_form.png)
+![Contact form](screenshots/contact.png)
 ```
 
 ---
