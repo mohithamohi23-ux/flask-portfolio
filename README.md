@@ -87,7 +87,7 @@ Example:
 - `screenshots/homepage.png`
 - `screenshots/contact_success.png`
 - `screenshots/contact.png`
-- `screenshots/vs_code_working_environment.png`
+- `screenshots/terminal_output.png`
 
 To display them:
 
@@ -95,6 +95,7 @@ To display them:
 ![Homepage](screenshots/homepage.png)
 ![Contact Success](screenshots/contact_success.png)
 ![Terminal Output](screenshots/terminal_output.png)
+![Contact form](screenshots/contact_form.png)
 ```
 
 ---
