@@ -86,7 +86,8 @@ Add screenshots inside your **screenshots** folder.
 Example:
 - `screenshots/homepage.png`
 - `screenshots/contact_success.png`
-- `screenshots/terminal_output.png`
+- `screenshots/contact.png`
+- `screenshots/vs_code_working_environment.png`
 
 To display them:
 
